@@ -7,6 +7,32 @@ body {
   font-family: 'Dosis', sans-serif;
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 .navbar {
     overflow: hidden;
     background-color: #efa5a4;
@@ -273,6 +299,7 @@ body {
   padding: 30px;
   color: rgb(237, 237, 237);
   font-size: 20px;
+  border-radius: 5px;
 }
 
 /* CHECKED STYLES */
