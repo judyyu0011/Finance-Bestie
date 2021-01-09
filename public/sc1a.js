@@ -1,9 +1,7 @@
 $(document).ready(()=>{
-    document.getElementById('sc1a-name').innerHTML = "Hey " + sessionStorage.getItem("name") + "!";
-
-    
-
+    document.getElementById('sc1a-name').innerHTML = "Nice to meet you, " + sessionStorage.getItem("name") + "!";
 });
+
 // animates the terms 
 function sc1aAnimations1() {
     const topDiv = document.getElementById("sc1a-top-div");
@@ -18,6 +16,7 @@ function sc1aAnimations1() {
     topDiv.appendChild(secondSen);
     secondSen.classList.add('sc1a-blurb');
     secondSen.classList.add('blurb');
+    secondSen.id = "term-intro";
     
     secondSen.innerHTML = "Before we do that, let's go over some helpful terms.";
 
@@ -27,7 +26,7 @@ function sc1aAnimations1() {
     terms.innerHTML = 
     "<b>Chequing Account</b>: An account where you can store your money in and use to make purchases. <br />" +
     "<b>Savings Account</b>: An account where you can store your money in and use to make purchases. <br />" +
-    "<b> Transaction</b>:     <br />" +  
+    "<b> Transaction</b>: An action you can do with your bank accounts; for example, deposit, withdraw and transfer. <br />" +  
     "<b>Monthly Transaction Limit</b>: The number of transactions (remember, deposit, withdraw and transfer) you can have per month. Don't go over this number! <br />" +
     "<b>Annual Fee</b>: A fee that you pay once a year to use your bank account.<br />" + 
     "<b>Balance and Minimum Balance</b>: How much money you have currently in your account. Sometimes an account requires you to keep a minimum balance, for example, a minimum balance of $50; then you cannot have money less $50 in the account. <br />" + 

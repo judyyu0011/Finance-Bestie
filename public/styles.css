@@ -308,5 +308,29 @@ body {
   outline: 3px solid black;
 }
 
+.sc1a-blurb {
+  font-size: 30px;
+  font-weight: bold;
+}
 
+#sc1a-top-div {
+  position: relative;
+  top: 50px;
+  left: 25px;
+  float: right;
+  width: 600px;
+}
 
+#term-intro {
+  margin-top: -80px;
+}
+
+.sc1a-terms {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.sc1a-tips {
+  font-size: 20px;
+  padding: 10px;
+}
