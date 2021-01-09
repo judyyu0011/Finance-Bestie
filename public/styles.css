@@ -303,6 +303,9 @@ body {
   border-radius: 5px;
 }
 
+#sc4-option-text {
+  font-size: 25px;
+
 #bigger-option-text {
   height: 150px;
 }
