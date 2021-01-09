@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
-    <script src="sc1a.js"></script>
+    <script src="sc2b.js"></script>
     <title>Finance Bestie</title>
 </head>
 <body>
@@ -34,18 +34,43 @@
     </header>
     
 
-      <div id="homepage-div">
+      <div id="sc1b-div">
         <div>
-            <img id="name-prompt-erika" src="images/erika-smile.png" width="350">
+          <img id="sc1b-erika" src="images/q3-star.png" width="250">
         </div>
 
-        <div id="sc1a-top-div">
-          <p id="sc1a-name" class="sc1a-blurb blurb"></p>
-          <div id='first-sentence' class="sc1a-blurb blurb" >First things first, let's choose a bank account.</div> 
-        </div> 
-    </div>
-    <div id="sc1a-button-container">
-      <div onclick=sc1aAnimations1() class="make-pointer next-button">Next</div>
-    </div>
+        <div id="sc1b-blurb" class="blurb">
+          <!-- <p>
+            Now that we have the basics down, we should choose a bank account. 
+          </p> -->
+          <p> Let's test our knowledge </p>
+           <p>  What should you bring to open your bank account?  </p>
+         
+        </div>
+  
+    <form> 
+        <div class="option-container">
+          <label class="option">
+            <input type="radio" name="chequing-acc" value="first-option" required>
+            <div class="option-text">Nothing</div>
+          </label>
+          
+          <label class="option">
+            <input type="radio" name="chequing-acc" value="second-option">
+            <div class="option-text">Money</div>
+          </label>
+      
+          <label class="option">
+            <input type="radio" name="chequing-acc" value="third-option">
+            <div class="option-text">2 pieces of government ID and your parents </div>
+          </label>
+        </div>
+      </form>
+      </div>
+      
+      <div onclick=goNext() class="no-text-decoration make-pointer" id="sc1b-button-container">
+        <div class="next-button">Next</div>
+      </div>
+    
 </body>
 </html>

@@ -5,38 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="app.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
-    <script src="sc1a.js"></script>
+    <script src="sc1b.js"></script>
     <title>Finance Bestie</title>
 </head>
 <body>
     <div class="top-banner">Finance Bestie</div>
     
     <div class="container">
-    <header>
-        <nav class="navbar">
-            <a class="nav-element" href="index.html">Home</a>
-            <div class="dropdown">
-              <button class="dropbtn">Resources
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a class="nav-element" href="terms.html">Definition</a>
-                <a class="nav-element" href="tips.html">Tips and Tricks</a>
-                <a class="nav-element" href="links.html">Useful Links</a>
+      <header>
+          <nav class="navbar">
+              <a class="nav-element" href="index.html">Home</a>
+              <div class="dropdown">
+                <button class="dropbtn">Resources
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a class="nav-element" href="terms.html">Definition</a>
+                  <a class="nav-element" href="tips.html">Tips and Tricks</a>
+                  <a class="nav-element" href="links.html">Useful Links</a>
+                </div>
               </div>
-            </div>
-            <a class="nav-element" href="about-us.html">About Us</a>
-        </nav>
-    </header>
+              <a class="nav-element" href="about-us.html">About Us</a>
+          </nav>
+      </header>
     
 
       <div id="sc1b-div">
         <div>
-          <img id="sc1b-erika" src="images/erika-smile.png" width="250">
+          <img id="sc1b-erika" src="images/erika-hat.png" width="250">
         </div>
 
         <div id="sc1b-blurb" class="blurb">
@@ -49,26 +48,36 @@
         </div>
   
   
-        <div class="option-container">
-          <label class="option">
-            <input type="radio" name="chequing-acc" value="first-option" required>
-            <div class="option-text"><span style="color: #ffbaca">Regular</span> Chequing Account with <span style="color: #ffbaca">25</span> monthly transaction limit and an <span style="color: #ffbaca">annual fee of $50</span></div>
-          </label>
-          
-          <label class="option">
-            <input type="radio" name="chequing-acc" value="second-option">
-            <div class="option-text"><span style="color: #ffbaca">Student</span> Chequing Account with <span style="color: #ffbaca">10</span> monthly transaction limit, <span style="color: #ffbaca">no annual fee</span></div>
-          </label>
-      
-          <label class="option">
-            <input type="radio" name="chequing-acc" value="third-option">
-            <div class="option-text"><span style="color: #ffbaca">Student</span> Chequing Account with <span style="color: #ffbaca">25</span> monthly transaction limit, <span style="color: #ffbaca">no annual fee</span></div>
-          </label>
-        </div>
-  
+        <form>
+          <div class="option-container">
+            <label class="option">
+              <input type="radio" name="chequing-acc" value="first-option" required>
+              <div class="option-text"><span style="color: #ffbaca">Regular</span> Chequing Account with <span style="color: #ffbaca">25 </span> <span class="tooltip">monthly transaction limit <span class="tooltiptext">The number of transactions (deposit, withdraw and transfer) you can have per month.
+              </span></span>, and an <span style="color: #ffbaca">annual fee of $50</span></div>
+            </label>
+            
+            <label class="option">
+              <input type="radio" name="chequing-acc" value="second-option">
+              <div class="option-text"><span style="color: #ffbaca">Student</span> Chequing Account with <span style="color: #ffbaca">10</span> monthly transaction limit, <span style="color: #ffbaca">no annual fee</span></div>
+            </label>
+        
+            <label class="option">
+              <input type="radio" name="chequing-acc" value="third-option">
+              <div class="option-text"><span style="color: #ffbaca">Student</span> Chequing Account with <span style="color: #ffbaca">25</span> monthly transaction limit, <span style="color: #ffbaca">no annual fee</span></div>
+            </label>
+          </div>
+        </form>
+
       </div>
       
-     
+      <!-- <a href='sc1c.html' class="no-text-decoration">
+          <div class="next-button">Next</div>
+      <a>  -->
+
+
+      <div onclick=goNext() class="no-text-decoration make-pointer" id="sc1b-button-container">
+        <div class="next-button">Next</div>
+      </div>
     </div>
     
 </body>
