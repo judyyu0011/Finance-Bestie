@@ -4,8 +4,6 @@ $(document).ready(()=>{
 
 });
 
-// let makeDisappear= function(){
-
 function sc1aAnimations1() {
     const topDiv = document.getElementById("sc1a-top-div");
 
