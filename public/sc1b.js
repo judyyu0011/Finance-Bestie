@@ -18,6 +18,8 @@ function goNext() {
         container.appendChild(text2);
         text2.innerHTML = 'Let\'s choose a better chequing account option.'
 
+        document.getElementById('sc1b-erika').src = 'images/erika-hat-unhappy.png';
+
     } else if (value == 'second-option') {
         container.style.color = '#8b0000';
         container.style.top = '0px';
@@ -31,6 +33,8 @@ function goNext() {
         var text2 = document.createElement('p');
         container.appendChild(text2);
         text2.innerHTML = 'The monthly transaction limit is quite low...';
+
+        document.getElementById('sc1b-erika').src = 'images/erika-hat-unhappy.png';
 
     } else if (value == 'third-option') {
 
@@ -46,6 +50,7 @@ function goNext() {
         container.appendChild(text2);
         text2.innerHTML = 'Click next to continue.';
 
+        document.getElementById('sc1b-erika').src = 'images/erika-hat-happy.png';
 
         // if correct option, create new button to go to next page
         var buttonContainer = document.getElementById('sc1b-button-container');

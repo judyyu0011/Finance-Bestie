@@ -18,6 +18,9 @@ function goNext() {
         container.appendChild(text2);
         text2.innerHTML = 'This interest rate is a bit low...';
 
+        document.getElementById('sc1b-erika').src = 'images/erika-earring-unhappy.png';
+
+
     } else if (value == 'second-option') {
         container.style.color = 'green';
         container.style.top = '0px';
@@ -31,6 +34,8 @@ function goNext() {
         var text2 = document.createElement('p');
         container.appendChild(text2);
         text2.innerHTML = 'Click next to continue.';
+
+        document.getElementById('sc1b-erika').src = 'images/erika-earring-happy.png';
 
         var buttonContainer = document.getElementById('sc1b-button-container');
 
@@ -60,6 +65,8 @@ function goNext() {
         var text2 = document.createElement('p');
         container.appendChild(text2);
         text2.innerHTML = 'Let\'s choose a different  savings account...';
+
+        document.getElementById('sc1b-erika').src = 'images/erika-earring-unhappy.png';
 
     } else {
         container.style.color = "black";
