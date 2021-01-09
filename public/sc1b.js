@@ -11,7 +11,7 @@ function goNext() {
         container.style.color = '#8b0000';
         container.style.top = '0px';
 
-    
+        container.innerHTML = '';
         var text1 = document.createElement('p');
         container.appendChild(text1);
         text1.innerHTML = 'Hmm, even though the number of monthly transactions available is high, there is also an annual fee.'
@@ -24,6 +24,7 @@ function goNext() {
         container.style.color = '#8b0000';
         container.style.top = '0px';
 
+        container.innerHTML = '';
 
         var text1 = document.createElement('p');
         container.appendChild(text1);
@@ -37,7 +38,7 @@ function goNext() {
 
         container.style.color = 'green';
         container.style.top = '0px';
-
+        container.innerHTML = '';
 
         var text1 = document.createElement('p');
         container.appendChild(text1);

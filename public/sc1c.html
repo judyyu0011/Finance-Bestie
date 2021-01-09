@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
-    <script src="sc1b.js"></script>
+    <script src="sc1c.js"></script>
     <title>Finance Bestie</title>
 </head>
 <body>
@@ -40,10 +40,8 @@
 
         <div id="sc1b-blurb" class="blurb">
           <p>
-            Now that we have the basics down, we should choose a bank account. 
-          </p>
-          <p>
-            What type of <span class="tooltip">chequing account<span class="tooltiptext">An account where you can store your money in and use to make purchases.</span></span> should we choose?
+            What type of <span class="tooltip">savings account<span class="tooltiptext">It's similar to a chequing account, but its main purpose is not to pay for purchases; it is to help your money grow with a savings interest rate.
+            </span></span> should we choose?
           </p>
         </div>
   
@@ -52,18 +50,18 @@
         <div class="option-container">
           <label class="option">
             <input type="radio" name="chequing-acc" value="first-option" required>
-            <div class="option-text"><span style="color: #ffbaca">Regular</span> Chequing Account with <span style="color: #ffbaca">25 </span> <span class="tooltip">monthly transaction limit <span class="tooltiptext">The number of transactions (deposit, withdraw and transfer) you can have per month.
-            </span></span>, and an <span style="color: #ffbaca">annual fee of $50</span></div>
+            <div class="option-text" id="bigger-option-text">Savings Account with <span style="color: #ffbaca">2 </span><span class="tooltip">monthly transaction limit<span class="tooltiptext">The number of transactions (deposit, withdraw and transfer) you can have per month.</span></span> with <span style="color: #ffbaca">0.5% </span>
+                <span class="tooltip">interest rate<span class="tooltiptext">It's a feature of the saving account. If the interest rate is 2%, the money in your savings account will grow 2% each year.</span></span></div>
           </label>
           
           <label class="option">
             <input type="radio" name="chequing-acc" value="second-option">
-            <div class="option-text"><span style="color: #ffbaca">Student</span> Chequing Account with <span style="color: #ffbaca">10</span> monthly transaction limit, <span style="color: #ffbaca">no annual fee</span></div>
+            <div class="option-text" id="bigger-option-text">Savings Account with <span style="color: #ffbaca">2</span> monthly transaction limit with <span style="color: #ffbaca">0.85%</span> interest rate </div>
           </label>
       
           <label class="option">
             <input type="radio" name="chequing-acc" value="third-option">
-            <div class="option-text"><span style="color: #ffbaca">Student</span> Chequing Account with <span style="color: #ffbaca">25</span> monthly transaction limit, <span style="color: #ffbaca">no annual fee</span></div>
+            <div class="option-text" id="bigger-option-text">Savings Account with <span style="color: #ffbaca">3</span> monthly transaction limit with <span style="color: #ffbaca">0.85%</span> interest rate and requires <span class="tooltip">minimum balance<span class="tooltiptext">Sometimes an account requires you to keep a minimum balance, for example, a minimum balance of $50; then you cannot have money less $50 in the account.</span></span> of $1000 in the account </div> 
           </label>
         </div>
       </form>
