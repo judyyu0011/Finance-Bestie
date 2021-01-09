@@ -5,21 +5,20 @@ function goNext() {
 
     deleteChildren(container);
 
-    if (value == 'first-option') {
+    if (value == 'third-option') {
         container.style.color = '#8b0000';
         container.style.top = '0px';
 
         container.innerHTML = '';
-      
         var text1 = document.createElement('p');
         container.appendChild(text1);
-        text1.innerHTML = 'Hmm, even though the number of monthly transactions available is high, there is also an annual fee.'
+        text1.innerHTML = 'Hmm, we should pick a PIN that cannot be easily guessed. We want our money to be safe!';
 
         var text2 = document.createElement('p');
         container.appendChild(text2);
-        text2.innerHTML = 'Let\'s choose a better chequing account option.'
-
-        document.getElementById('sc1b-erika').src = 'images/erika-hat-unhappy.png';
+        text2.innerHTML = 'Let\'s choose a better PIN!';
+        const erika = document.getElementById("sc1b-erika");
+        erika.src= 'images/erika-unhappy.png';
 
     } else if (value == 'second-option') {
         container.style.color = '#8b0000';
@@ -29,30 +28,27 @@ function goNext() {
 
         var text1 = document.createElement('p');
         container.appendChild(text1);
-        text1.innerHTML = 'Hmm, I think we can choose a better account.';
-
+        text1.innerHTML = 'Hmm, your birthday might be too easy to guess.';
         var text2 = document.createElement('p');
         container.appendChild(text2);
-        text2.innerHTML = 'The monthly transaction limit is quite low...';
+        text2.innerHTML = 'Let\'s choose a better PIN!';
+        const erika = document.getElementById("sc1b-erika");
+        erika.src= 'images/erika-unhappy.png';
 
-        document.getElementById('sc1b-erika').src = 'images/erika-hat-unhappy.png';
-
-    } else if (value == 'third-option') {
+    } else if (value == 'first-option') {
 
         container.style.color = 'green';
         container.style.top = '0px';
-
         container.innerHTML = '';
 
         var text1 = document.createElement('p');
         container.appendChild(text1);
-        text1.innerHTML = 'Awesome choice! This chequing account has a high monthly transaction limit and no annual fees.';
+        text1.innerHTML = 'Perfect! Now we should ask a parent or guardian to take you to your chosen bank to open up the chequing and savings accounts that you picked.';
 
         var text2 = document.createElement('p');
         container.appendChild(text2);
         text2.innerHTML = 'Click next to continue.';
 
-        document.getElementById('sc1b-erika').src = 'images/erika-hat-happy.png';
 
         // if correct option, create new button to go to next page
         var buttonContainer = document.getElementById('sc1b-button-container');
@@ -60,7 +56,8 @@ function goNext() {
         deleteChildren(buttonContainer);
     
         const nextAnchor = document.createElement('a');
-        nextAnchor.href = 'sc1c.html';
+        // for the next scenario
+        nextAnchor.href = 'sc3a.html';
         nextAnchor.classList.add('no-text-decoration');
         buttonContainer.appendChild(nextAnchor);
     
@@ -69,10 +66,12 @@ function goNext() {
         nextButton.classList.add("next-button");
         nextButton.classList.add("make-pointer");
         nextButton.innerText = 'Next';
+        const erika = document.getElementById("sc1b-erika");
+        erika.src= 'images/q3-star-happy.png';
 
     } else {
         container.style.color = "black";
-        container.innerHTML = 'Please choose a chequing account!';
+        container.innerHTML = 'Please choose a !';
         container.style.top = '100px';
     }
 
