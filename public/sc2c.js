@@ -5,18 +5,18 @@ function goNext() {
 
     deleteChildren(container);
 
-    if (value == 'first-option') {
+    if (value == 'third-option') {
         container.style.color = '#8b0000';
         container.style.top = '0px';
 
         container.innerHTML = '';
         var text1 = document.createElement('p');
         container.appendChild(text1);
-        text1.innerHTML = 'Hmm, you should bring something to identify yourself. What could it be?';
+        text1.innerHTML = 'Hmm, we should pick a PIN that cannot be easily guessed. We want our money to be safe!';
 
         var text2 = document.createElement('p');
         container.appendChild(text2);
-        text2.innerHTML = 'Let\'s choose a better option!';
+        text2.innerHTML = 'Let\'s choose a better PIN!';
         const erika = document.getElementById("sc1b-erika");
         erika.src= 'images/erika-unhappy.png';
 
@@ -28,15 +28,14 @@ function goNext() {
 
         var text1 = document.createElement('p');
         container.appendChild(text1);
-        text1.innerHTML = 'The bank is definitely the place to go when you have money on hand to put away, but you need something to identify yourself first! What could it be? ';
-
+        text1.innerHTML = 'Hmm, your birthday might be too easy to guess.';
         var text2 = document.createElement('p');
         container.appendChild(text2);
-        text2.innerHTML = 'Let\'s choose a better option!';
+        text2.innerHTML = 'Let\'s choose a better PIN!';
         const erika = document.getElementById("sc1b-erika");
         erika.src= 'images/erika-unhappy.png';
 
-    } else if (value == 'third-option') {
+    } else if (value == 'first-option') {
 
         container.style.color = 'green';
         container.style.top = '0px';
@@ -57,7 +56,8 @@ function goNext() {
         deleteChildren(buttonContainer);
     
         const nextAnchor = document.createElement('a');
-        nextAnchor.href = 'sc2c.html';
+        // for the next scenario
+        nextAnchor.href = 'sc3a.html';
         nextAnchor.classList.add('no-text-decoration');
         buttonContainer.appendChild(nextAnchor);
     
@@ -71,7 +71,7 @@ function goNext() {
 
     } else {
         container.style.color = "black";
-        container.innerHTML = 'Please choose an option!';
+        container.innerHTML = 'Please choose a !';
         container.style.top = '100px';
     }
 
