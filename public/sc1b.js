@@ -1,6 +1,4 @@
 function goNext() {
-    var f = document.getElementsByTagName('form')[0];
-
     var value = $("input[type=radio]:checked").val();
 
     var container = document.getElementById('sc1b-blurb');
@@ -48,6 +46,8 @@ function goNext() {
         container.appendChild(text2);
         text2.innerHTML = 'Click next to continue.';
 
+
+        // if correct option, create new button to go to next page
         var buttonContainer = document.getElementById('sc1b-button-container');
 
         deleteChildren(buttonContainer);
