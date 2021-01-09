@@ -4,7 +4,7 @@ $(document).ready(()=>{
     
 
 });
-// animates the terms 
+// animates the introduction of the new scnearioes   
 function sc1aAnimations1() {
     const topDiv = document.getElementById("sc1a-top-div");
 
@@ -86,7 +86,7 @@ function sc1aAnimations1() {
 //     nextButton.onclick = function() {sc1aAnimations3()};
 // }
 
-// animates the tips for choosing a bank account 
+// animates the tips for opening a bank account 
 function sc1aAnimations3() {
     const topDiv = document.getElementById("sc1a-top-div");
 
