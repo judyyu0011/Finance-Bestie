@@ -1,9 +1,7 @@
 $(document).ready(()=>{
-    document.getElementById('sc1a-name').innerHTML = "Hey " + sessionStorage.getItem("name") + "!";
-
-    
-
+    document.getElementById('sc1a-name').innerHTML = "Nice to meet you, " + sessionStorage.getItem("name") + "!";
 });
+
 // animates the terms 
 function sc1aAnimations1() {
     const topDiv = document.getElementById("sc1a-top-div");
@@ -18,6 +16,7 @@ function sc1aAnimations1() {
     topDiv.appendChild(secondSen);
     secondSen.classList.add('sc1a-blurb');
     secondSen.classList.add('blurb');
+    secondSen.id = "term-intro";
     
     secondSen.innerHTML = "Before we do that, let's go over some helpful terms.";
 
@@ -27,7 +26,7 @@ function sc1aAnimations1() {
     terms.innerHTML = 
     "<b>Chequing Account</b>: An account where you can store your money in and use to make purchases. <br />" +
     "<b>Savings Account</b>: An account where you can store your money in and use to make purchases. <br />" +
-    "<b> Transaction</b>:     <br />" +  
+    "<b>Transaction</b>: An action you can do with your bank accounts; for example, deposit, withdraw and transfer. <br />" +  
     "<b>Monthly Transaction Limit</b>: The number of transactions (remember, deposit, withdraw and transfer) you can have per month. Don't go over this number! <br />" +
     "<b>Annual Fee</b>: A fee that you pay once a year to use your bank account.<br />" + 
     "<b>Balance and Minimum Balance</b>: How much money you have currently in your account. Sometimes an account requires you to keep a minimum balance, for example, a minimum balance of $50; then you cannot have money less $50 in the account. <br />" + 
@@ -87,15 +86,7 @@ function sc1aAnimations3() {
     topDiv.appendChild(tips);
     tips.className = 'sc1a-tips';
     tips.innerHTML = 
-   "<ul> <b> Tips for choosing a chequing and savings account</b> </ul><li> it should be free for students and teens and does not require you to have a minimum balance ( you can have $0 in the bank) </li><li> It offers accounts(chequing, savings) that are free for teens and students, no annual fees </li><li> It should have a good number of monthly transaction limit (refer to finance terms 101) </li><li> if it's a savings account, it should have a good savings interest rate (refer to finance terms 101), higher the better</li>";
-
-    
-    // nextButton.className = "next-button";
-
-    // make it an anchor tag that goes to the next page //  nextButton.innerHTML = '<a href="sc1b.html">Next<a>';
-    // nextButton.classList.add('no-text-decoration')
-    // buttonContainer.appendChild(nextButton);
-    
+   "<ul> <b> Tips for choosing a chequing and savings account</b> </ul><li>It should be free for students and teens and does not require you to have a minimum balance (you can have $0 in the bank) </li><li>It offers accounts (chequing, savings) that are free for teens and students, no annual fees </li><li> It should have a good number of monthly transaction limit (refer to finance terms 101) </li><li>If it's a savings account, it should have a good savings interest rate (refer to Finance Terms 101), higher the better</li>";
 
     // make a new anchor tag 
     const nextAnchor = document.createElement('a');

@@ -10,35 +10,18 @@ function goNext() {
         container.style.top = '0px';
 
         container.innerHTML = '';
-      
-        var text1 = document.createElement('p');
-        container.appendChild(text1);
-        text1.innerHTML = 'Hmm, even though the number of monthly transactions available is high, there is also an annual fee.'
-
-        var text2 = document.createElement('p');
-        container.appendChild(text2);
-        text2.innerHTML = 'Let\'s choose a better chequing account option.'
-
-        document.getElementById('sc1b-erika').src = 'images/erika-hat-unhappy.png';
-
-    } else if (value == 'second-option') {
-        container.style.color = '#8b0000';
-        container.style.top = '0px';
-
-        container.innerHTML = '';
-
         var text1 = document.createElement('p');
         container.appendChild(text1);
         text1.innerHTML = 'Hmm, I think we can choose a better account.';
 
         var text2 = document.createElement('p');
         container.appendChild(text2);
-        text2.innerHTML = 'The monthly transaction limit is quite low...';
+        text2.innerHTML = 'This interest rate is a bit low...';
 
-        document.getElementById('sc1b-erika').src = 'images/erika-hat-unhappy.png';
+        document.getElementById('sc1b-erika').src = 'images/erika-earring-unhappy.png';
 
-    } else if (value == 'third-option') {
 
+    } else if (value == 'second-option') {
         container.style.color = 'green';
         container.style.top = '0px';
 
@@ -46,21 +29,20 @@ function goNext() {
 
         var text1 = document.createElement('p');
         container.appendChild(text1);
-        text1.innerHTML = 'Awesome choice! This chequing account has a high monthly transaction limit and no annual fees.';
+        text1.innerHTML = 'Great choice! This savings account has no minimum balance and a good interest rate.';
 
         var text2 = document.createElement('p');
         container.appendChild(text2);
         text2.innerHTML = 'Click next to continue.';
 
-        document.getElementById('sc1b-erika').src = 'images/erika-hat-happy.png';
+        document.getElementById('sc1b-erika').src = 'images/erika-earring-happy.png';
 
-        // if correct option, create new button to go to next page
         var buttonContainer = document.getElementById('sc1b-button-container');
 
         deleteChildren(buttonContainer);
     
         const nextAnchor = document.createElement('a');
-        nextAnchor.href = 'sc1c.html';
+        nextAnchor.href = 'sc2.html';
         nextAnchor.classList.add('no-text-decoration');
         buttonContainer.appendChild(nextAnchor);
     
@@ -70,9 +52,25 @@ function goNext() {
         nextButton.classList.add("make-pointer");
         nextButton.innerText = 'Next';
 
+    } else if (value == 'third-option') {
+
+        container.style.color = '#8b0000';
+        container.style.top = '0px';
+        container.innerHTML = '';
+
+        var text1 = document.createElement('p');
+        container.appendChild(text1);
+        text1.innerHTML = 'Hmm, although this account has a high number of monthly transactions, you always need to keep a lot of money in this account. More than $1000!';
+
+        var text2 = document.createElement('p');
+        container.appendChild(text2);
+        text2.innerHTML = 'Let\'s choose a different  savings account...';
+
+        document.getElementById('sc1b-erika').src = 'images/erika-earring-unhappy.png';
+
     } else {
         container.style.color = "black";
-        container.innerHTML = 'Please choose a chequing account!';
+        container.innerHTML = 'Please choose a savings account!';
         container.style.top = '100px';
     }
 
