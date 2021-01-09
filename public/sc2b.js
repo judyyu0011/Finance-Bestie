@@ -4,7 +4,7 @@ $(document).ready(()=>{
     
 
 });
-// animates the terms 
+// animates the introduction of the new scnearioes  
 function sc1aAnimations1() {
     const topDiv = document.getElementById("sc1a-top-div");
 
@@ -42,7 +42,7 @@ function sc1aAnimations1() {
     nextButton.onclick = function() {sc1aAnimations2()};
 }
 
-// animates the tips for choosing a bank 
+// animates the tips for opening a bank account 
 function sc1aAnimations2() {
     const topDiv = document.getElementById("sc1a-top-div");
 
@@ -89,13 +89,7 @@ function sc1aAnimations3() {
     tips.innerHTML = 
    "<ul> <b> Tips for choosing a chequing and savings account</b> </ul><li> it should be free for students and teens and does not require you to have a minimum balance ( you can have $0 in the bank) </li><li> It offers accounts(chequing, savings) that are free for teens and students, no annual fees </li><li> It should have a good number of monthly transaction limit (refer to finance terms 101) </li><li> if it's a savings account, it should have a good savings interest rate (refer to finance terms 101), higher the better</li>";
 
-    
-    // nextButton.className = "next-button";
 
-    // make it an anchor tag that goes to the next page //  nextButton.innerHTML = '<a href="sc1b.html">Next<a>';
-    // nextButton.classList.add('no-text-decoration')
-    // buttonContainer.appendChild(nextButton);
-    
 
     // make a new anchor tag 
     const nextAnchor = document.createElement('a');
