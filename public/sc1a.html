@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
+    <script src="sc1a.js"></script>
+    <title>Finance Bestie</title>
+</head>
+<body>
+    <div class="top-banner">Finance Bestie</div>
+    
+    <div class="container">
+    <header>
+        <nav class="navbar">
+            <a class="nav-element" href="index.html">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">Resources
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a class="nav-element" href="terms.html">Definition</a>
+                <a class="nav-element" href="tips.html">Tips and Tricks</a>
+                <a class="nav-element" href="links.html">Useful Links</a>
+              </div>
+            </div>
+            <a class="nav-element" href="about-us.html">About Us</a>
+        </nav>
+    </header>
+    
+
+      <div id="homepage-div">
+        <div>
+            <img id="name-prompt-erika" src="images/erika-smile.png" width="350">
+      </div>
+
+      <div id="sc1a-top-div">
+        <p id="sc1a-name"></p>
+        <div id='first-sentence' class="sc1a-blurb">First things first, let's choose a bank account</div> 
+          <!-- <div id='check-terms'>
+            Before we do that, let's go over some helpful <a href="terms.html">terms</a> !
+          </div>
+          <div id='check-tips'>
+            Next, we should check out some tips for choosing <a href='tips.html'>a bank and bank account</a> !
+          </div> -->
+
+      </div>
+
+      
+     <div>
+        Now that we have the basics down, we should choose a bank account. 
+     </div>
+
+
+     <div>
+        What type of chequing account should we choose?
+     </div>
+     <form>
+        <input type="radio" name="wrongchoice" >
+        <label for="fname">Regular Chequing Account with 25 monthly transaction limit and an annual fee of $50</label> <br>
+        <input type="radio" name="wrongChoice" >   
+        <label for="fname">Student Chequing Account with 10 monthly transaction limit, no annual fee </label><br>
+        <input type="radio" name="correctChoice" >  
+        <label for="fname">Student Chequing Account with 25 monthly transaction limit, no annual fee</label><br>
+     </form>
+
+     
+
+
+
+
+     
+
+
+
+
+
+      
+     
+    </div>
+    <div id="sc1a-button-container">
+      <div onclick=sc1aAnimations1() id="sc1a-continue" class="next-button">Next</div>
+    </div>
+</body>
+</html>

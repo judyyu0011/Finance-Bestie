@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/judyyu0011/Finance-Bestie#readme",
   "dependencies": {
+    "ejs": "^3.1.5",
     "express": "^4.17.1"
   }
 }
