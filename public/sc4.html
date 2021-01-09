@@ -5,33 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="app.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
-    <script src="sc1a.js"></script>
+    <script src="sc4.js"></script>
     <title>Finance Bestie</title>
 </head>
 <body>
     <div class="top-banner">Finance Bestie</div>
     
     <div class="container">
-    <header>
-        <nav class="navbar">
-            <a class="nav-element" href="index.html">Home</a>
-            <div class="dropdown">
-              <button class="dropbtn">Resources
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a class="nav-element" href="terms.html">Definition</a>
-                <a class="nav-element" href="tips.html">Tips and Tricks</a>
-                <a class="nav-element" href="links.html">Useful Links</a>
+      <header>
+          <nav class="navbar">
+              <a class="nav-element" href="index.html">Home</a>
+              <div class="dropdown">
+                <button class="dropbtn">Resources
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a class="nav-element" href="terms.html">Definition</a>
+                  <a class="nav-element" href="tips.html">Tips and Tricks</a>
+                  <a class="nav-element" href="links.html">Useful Links</a>
+                </div>
               </div>
-            </div>
-            <a class="nav-element" href="about-us.html">About Us</a>
-        </nav>
-    </header>
+              <a class="nav-element" href="about-us.html">About Us</a>
+          </nav>
+      </header>
     
 
       <div id="sc1b-div">
@@ -40,39 +39,40 @@
         </div>
 
         <div id="sc1b-blurb" class="blurb">
-        <p>
-            Amazing! Your family and friends gave you $100 to celebrate your birthday.
-        </p>
-        <p>
-            What should you do with the money? 
-        </p>
+          <p>
+              Amazing! Your family and friends gave you $100 to celebrate your birthday.
+          </p>
+          <p>
+              What should you do with the money? 
+          </p>
         </div>
   
   
-        <div class="option-container">
-          <label class="option">
-            <input type="radio" name="first-deposit" value="first-option" required>
-            <div class="option-text" id="sc4-option-text"> <span class="tooltip">Deposit<span class="tooltiptext">Putting money IN your bank accounts. The opposite of withdraw. You can tell your bank teller 'Hi, I would like to deposit some cash'</span></span> it in your <span style="color: #ffbaca"> Savings Account</span></div>
-          </label>
-          
-          <label class="option">
-            <input type="radio" name="first-deposit" value="second-option">
-            <div class="option-text" id="sc4-option-text"><span style="color: #ffbaca">Spend it </span> on candy</div>
-          </label>
-      
-          <label class="option">
-            <input type="radio" name="first-deposit" value="third-option">
-            <div class="option-text" id="sc4-option-text">Deposit it in your <span style="color: #ffbaca"> Chequing Account</span></div>
-          </label>
-        </div>
+        <form>
+          <div class="option-container">
+            <label class="option">
+              <input type="radio" name="first-deposit" value="first-option" required>
+              <div class="option-text" id="sc4-option-text"> <span class="tooltip">Deposit<span class="tooltiptext">Putting money IN your bank accounts. The opposite of withdraw. You can tell your bank teller 'Hi, I would like to deposit some cash'</span></span> it in your <span style="color: #ffbaca"> Savings Account</span></div>
+            </label>
+            
+            <label class="option">
+              <input type="radio" name="first-deposit" value="second-option">
+              <div class="option-text" id="sc4-option-text"><span style="color: #ffbaca">Spend it </span> on candy</div>
+            </label>
+        
+            <label class="option">
+              <input type="radio" name="first-deposit" value="third-option">
+              <div class="option-text" id="sc4-option-text">Deposit it in your <span style="color: #ffbaca"> Chequing Account</span></div>
+            </label>
+          </div>
+        </form>
 
-        </div>
-            <a href="sc6.html" class="no-text-decoration next-button make-pointer">
-                <div id="next-button">Next</div>
-            </a>
-        </div>
     
-    </div>
+      </div>
+
+      <div onclick=goNext() class="no-text-decoration make-pointer" id="sc4-button-container">
+        <div class="next-button">Next</div>
+      </div>
       
      
     </div>
