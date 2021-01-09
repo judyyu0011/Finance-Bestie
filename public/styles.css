@@ -265,8 +265,8 @@ body {
 }
 
 .option-container {
-  position: relative;
-  top: 50px;
+  position: absolute;
+  top: 300px;
   width: 900px;
   margin: auto;
   display: flex;
