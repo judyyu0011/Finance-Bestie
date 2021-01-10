@@ -6,30 +6,47 @@ function goNext() {
     deleteChildren(container);
 
     if (value == 'first-option') {
-        container.style.color = 'green';
+        container.style.color = '#8b0000';
         container.style.top = '0px';
 
         container.innerHTML = '';
         var text1 = document.createElement('p');
         container.appendChild(text1);
-        text1.innerHTML = 'If you don\'t planning on spending it, this is a great choice!';
+        text1.innerHTML = 'Even though your want to get your friend the perfect gift, we should never spend more than we have.';
 
         var text2 = document.createElement('p');
         container.appendChild(text2);
-        text2.innerHTML = 'Depositing and keeping money in our savings account will allow the money to grow.';
+        text2.innerHTML = 'You will be charged extra by the bank if you spend more than what you have in your bank account!';
+
+        document.getElementById('sc1b-erika').src = '../images/erika-birthday-unhappy.png';
+
+    } else if (value == 'second-option') {
+        container.style.color = 'green';
+        container.style.top = '0px';
+
+        container.innerHTML = '';
+
+        var text1 = document.createElement('p');
+        container.appendChild(text1);
+        text1.innerHTML = 'Awesome idea!';
+
+        var text2 = document.createElement('p');
+        container.appendChild(text2);
+        text2.innerHTML = 'You\'ll be able to get a great gift for your friend and have a set budget for yourself so that you don\'t spend more than you have.';
 
         var text3 = document.createElement('p');
         container.appendChild(text3);
-        text3.innerHTML = 'You will have more than $100 in your savings account in no time!';
+        text3.innerHTML = 'Your friend will be so happy! Click next to continue.';
 
-        document.getElementById('sc1b-erika').src = '../images/erika-flower-crown-happy.png';
+        document.getElementById('sc1b-erika').src = '../images/erika-birthday-happy.png';
+
 
         var buttonContainer = document.getElementById('sc4-button-container');
 
         deleteChildren(buttonContainer);
     
         const nextAnchor = document.createElement('a');
-        nextAnchor.href = '../scenario-6/sc6.html';
+        nextAnchor.href = '../end.html';
         nextAnchor.classList.add('no-text-decoration');
         buttonContainer.appendChild(nextAnchor);
     
@@ -39,22 +56,6 @@ function goNext() {
         nextButton.classList.add("make-pointer");
         nextButton.innerText = 'Next';
 
-    } else if (value == 'second-option') {
-        container.style.color = '#8b0000';
-        container.style.top = '0px';
-
-        container.innerHTML = '';
-
-        var text1 = document.createElement('p');
-        container.appendChild(text1);
-        text1.innerHTML = '$100 on candy?!';
-
-        var text2 = document.createElement('p');
-        container.appendChild(text2);
-        text2.innerHTML = 'We all love sweets, but what else can we do with the money?';
-
-        document.getElementById('sc1b-erika').src = '../images/erika-flower-crown-unhappy.png';
-
     } else if (value == 'third-option') {
 
         container.style.color = '#8b0000';
@@ -63,13 +64,14 @@ function goNext() {
 
         var text1 = document.createElement('p');
         container.appendChild(text1);
-        text1.innerHTML = 'If you are planning to buy something in the future, then it\'s good to put it in the chequing account.'
+        text1.innerHTML = 'You can take money out of your bank account, even your savings account, at any time unless there are special rules.'
         
         var text2 = document.createElement('p');
         container.appendChild(text2);
-        text2.innerHTML = 'If you\'re not planning on using the money soon, think about depositing the $100 into your savings account where your money can grow!';
+        text2.innerHTML = 'When you aren\'t sure, don\'t be afraid to task the staff at your local bank!';
 
-        document.getElementById('sc1b-erika').src = '../images/erika-flower-crown-unhappy.png';
+        
+        document.getElementById('sc1b-erika').src = '../images/erika-birthday-unhappy.png';
 
     } else {
         container.style.color = "black";

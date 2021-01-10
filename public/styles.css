@@ -101,25 +101,31 @@ body {
     display: block;
   }
 
-.top-banner {
+/* .top-banner {
     width: 100%;
     height: 5%;
     background: white;
     font-size: 30px;
     font-weight: bolder;
     margin-left: 1%;
-}
+} */
 
 /* .top-banner {
-  background-image: url('images/logo-words.png');
   height: 5%;
   width: 100%;
-  background: #efa5a4;
+  background: white;
 } */
+
+#word-only-logo {
+  position: absolute;
+  float: right;
+  top: -20px;
+  right: 5px;
+}
 
 .container {
     background-image: url('images/background.png');
-    height: 95%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -242,7 +248,7 @@ body {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   right: 2%;
   bottom: 4%;
-  font-family: 'Indie Flower', cursive;
+  /* font-family: 'Indie Flower', cursive; */
 }
 
 .make-pointer {
@@ -264,9 +270,19 @@ body {
 #sc1b-blurb {
   position: relative;
   top: 10px;
-  right: 100px;
+  /* right: 200px; */
   float: right;
-  width: 400px;
+  width: 500px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#sc1c-blurb {
+  position: relative;
+  top: 80px;
+  /* right: 200px; */
+  float: right;
+  width: 500px;
   font-size: 24px;
   font-weight: bold;
 }
@@ -318,9 +334,15 @@ body {
   height: 150px;
 }
 
+#big-option-font {
+  font-size: 28px;
+}
+
 /* CHECKED STYLES */
 [type=radio]:checked + div {
-  outline: 3px solid black;
+  /* outline: 3px solid black; */
+  box-shadow: 0 0 0 4px black;
+  border-radius: 5px;
 }
 
 .sc1a-blurb {
@@ -380,4 +402,8 @@ body {
   width: 550px;
   font-size: 20px;
   font-weight: bolder;
+}
+
+#sc5-option-text {
+  font-size: 18.5px;
 }

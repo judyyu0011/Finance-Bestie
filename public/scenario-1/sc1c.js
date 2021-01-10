@@ -1,7 +1,7 @@
 function goNext() {
     var value = $("input[type=radio]:checked").val();
 
-    var container = document.getElementById('sc1b-blurb');
+    var container = document.getElementById('sc1c-blurb');
 
     deleteChildren(container);
 

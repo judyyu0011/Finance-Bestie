@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
-    <script src="sc1b.js"></script>
+    <script src="sc5.js"></script>
     <title>Finance Bestie</title>
 </head>
 <body>
@@ -36,15 +36,15 @@
 
       <div id="sc1b-div">
         <div>
-          <img id="sc1b-erika" src="../images/erika-hat.png" width="250">
+          <img id="sc1b-erika" src="../images/erika-flower-crown.png" width="250">
         </div>
 
         <div id="sc1b-blurb" class="blurb">
           <p>
-            Now that we have the basics down, we should choose a bank account. 
+             You got your first part-time job! Your income will be deposited into your chequing account every month. 
           </p>
           <p>
-            What type of <span class="tooltip">chequing account<span class="tooltiptext">An account where you can store your money in and use to make purchases.</span></span> should we choose?
+             What will you do with the money? 
           </p>
         </div>
   
@@ -52,33 +52,30 @@
         <form>
           <div class="option-container">
             <label class="option">
-              <input type="radio" name="chequing-acc" value="first-option" required>
-              <div class="option-text"><span style="color: #ffbaca">Regular</span> Chequing Account with <span style="color: #ffbaca">25 </span> <span class="tooltip">monthly transaction limit <span class="tooltiptext">The number of transactions (deposit, withdraw and transfer) you can have per month.
-              </span></span>, and an <span style="color: #ffbaca">annual fee of $50</span></div>
+              <input type="radio" name="first-deposit" value="first-option" required>
+              <div class="option-text" id = "sc5-option-text"> Set up an <span class="tooltip">automatic monthly transfer<span class="tooltiptext"> The bank automatically transfers money from your chequing to your savings account, so you can grow your money quicker with savings interest rate </span></span> of 20% of your income to your savings account.</div>
             </label>
-            
+
             <label class="option">
-              <input type="radio" name="chequing-acc" value="second-option">
-              <div class="option-text"><span style="color: #ffbaca">Student</span> Chequing Account with <span style="color: #ffbaca">10</span> monthly transaction limit, <span style="color: #ffbaca">no annual fee</span></div>
+              <input type="radio" name="first-deposit" value="second-option">
+              <div class="option-text" id="sc4-option-text">Keep all your money at home</div>
             </label>
         
             <label class="option">
-              <input type="radio" name="chequing-acc" value="third-option">
-              <div class="option-text"><span style="color: #ffbaca">Student</span> Chequing Account with <span style="color: #ffbaca">25</span> monthly transaction limit, <span style="color: #ffbaca">no annual fee</span></div>
+              <input type="radio" name="first-deposit" value="third-option">
+              <div class="option-text" id="sc4-option-text">Spend it on cookies every month</div>
             </label>
           </div>
         </form>
 
+    
       </div>
-      
-      <!-- <a href='sc1c.html' class="no-text-decoration">
-          <div class="next-button">Next</div>
-      <a>  -->
 
-
-      <div onclick=goNext() class="no-text-decoration make-pointer" id="sc1b-button-container">
+      <div onclick=goNext() class="no-text-decoration make-pointer" id="sc4-button-container">
         <div class="next-button">Next</div>
       </div>
+      
+     
     </div>
     
 </body>
