@@ -23,9 +23,9 @@ function sc2aAnimations1() {
     "<li>Two pieces of photo ID (ex. Social Insurance Number(SIN), passport, birth certificate)</li> <br />" +
     "<li><span class='tooltip'>Your parent or guardian <span class='tooltiptext'>You are not old enough to sign legal documents, so your parents will sign them for you</span></span> and their photo ID</li> <br />" + 
     "<div>At the bank, you can tell the bank teller, 'I would like to open a bank account today' and tell them the bank accounts of your choice. </div> <br />" +
-    "<div>When opening the bank account of your choice, you will be getting a <span class='tooltip'>debit card <span class='tooltiptext'> A plastic magnetic card that you use to access your money in your bank an make purchases. </span></span></span>  and you have to come up with a <span class='tooltip'> PIN number <span class='tooltiptext'>It's like a password to your debit card. You enter it when you make a purchase or access your accounts at the bank or ATM. It's usually between 4 to 6 digits. Memorize it and don't share it with anyone. It's a secret! </span></span>for your debit card</div>  <br />" +
+    "<div>When opening the bank account of your choice, you will be getting a <span class='tooltip'>debit card <span class='tooltiptext'> A plastic magnetic card that you use to access your money in your bank an make purchases. </span></span></span> and you have to come up with a <span class='tooltip'> PIN <span class='tooltiptext'>It's like a password to your debit card. You enter it when you make a purchase or access your accounts at the bank or ATM. It's usually between 4 to 6 digits. Memorize it and don't share it with anyone. It's a secret! </span></span> for your debit card</div>  <br />" +
 
-    "<div> Almost all set! Lets read some tips on how to keep your debit card and PIN number safe!"
+    "<div> Almost all set! Lets read some tips on how to keep your debit card and PIN safe!"
     ;
 
     const nextAnchor = document.createElement('a');
@@ -56,12 +56,12 @@ function sc2aAnimations2() {
     topDiv.appendChild(tips);
     tips.className = 'sc1a-tips';
     tips.innerHTML = 
-    '<b>Tips for keeping your debit card and PIN number safe: <b>' +
+    '<b>Tips for keeping your debit card and PIN safe: <b>' +
     "<ul>  </ul> <br />" + 
-    "<li>Don't make your PIN number your birthday or a common number, pick something that no one can easily guess it  </li> <br />" + 
+    "<li>Don't make your PIN your birthday or a common number, pick something that no one can easily guess it  </li> <br />" + 
     "<li>Store it in a secure place, like your wallet (you don't want to lose it!) </li> <br />" +
-    "<li>Don‘t share your debit card or PIN number with anyone (its a secret!)</li> <br />" +
-    "<li>Memorize your PIN number and make sure no one is watching you when you enter your PIN number </li> "
+    "<li>Don‘t share your debit card or PIN with anyone (its a secret!)</li> <br />" +
+    "<li>Memorize your PIN and make sure no one is watching you when you enter your PIN </li> "
     ;
 
 
