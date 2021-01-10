@@ -24,13 +24,13 @@ function sc1aAnimations1() {
     topDiv.appendChild(terms);
     terms.className = 'sc1a-terms';
     terms.innerHTML = 
-    "<b>Chequing Account</b>: An account where you can store your money in and use to make purchases. <br />" +
-    "<b>Savings Account</b>: An account where you can store your money in and use to make purchases. <br />" +
-    "<b>Transaction</b>: An action you can do with your bank accounts; for example, deposit, withdraw and transfer. <br />" +  
-    "<b>Monthly Transaction Limit</b>: The number of transactions (remember, deposit, withdraw and transfer) you can have per month. Don't go over this number! <br />" +
-    "<b>Annual Fee</b>: A fee that you pay once a year to use your bank account.<br />" + 
-    "<b>Balance and Minimum Balance</b>: How much money you have currently in your account. Sometimes an account requires you to keep a minimum balance, for example, a minimum balance of $50; then you cannot have money less $50 in the account. <br />" + 
-    "<b>Savings Interest Rate</b>: It's a feature of the saving account. If the interest rate is 2%, you get 100% + 2% = 102% of your money in your savings account.<br />"
+    "<p><b>Chequing Account</b>: An account where you can store your money in and use to make purchases.</p>" +
+    "<p><b>Savings Account</b>: An account where you can store your money in and use to make purchases. </p>" +
+    "<p><b>Transaction</b>: An action you can do with your bank accounts; for example, deposit, withdraw and transfer.</p>" +  
+    "<p><b>Monthly Transaction Limit</b>: The number of transactions (remember, deposit, withdraw and transfer) you can have per month. Don't go over this number!</p>" +
+    "<p><b>Annual Fee</b>: A fee that you pay once a year to use your bank account.</p>" + 
+    "<p><b>Balance and Minimum Balance</b>: How much money you have currently in your account. Sometimes an account requires you to keep a minimum balance, for example, a minimum balance of $50; then you cannot have money less $50 in the account.</p>" + 
+    "<p><b>Savings Interest Rate</b>: It's a feature of the saving account. If the interest rate is 2%, you get 100% + 2% = 102% of your money in your savings account.</p>"
     ;
 
     const nextButton = document.createElement('div');
@@ -61,7 +61,7 @@ function sc1aAnimations2() {
     topDiv.appendChild(tips);
     tips.className = 'sc1a-tips';
     tips.innerHTML = 
-   '<ul> <b>Tips for choosing a bank </b> </ul><li> it has lots of locations close to where you live and/or work</li><li> It offers accounts(chequing, savings) that are free for teens and students, no annual fees </li><li> It has a great reputation and  great customer service  </li><li>Ask your parents, guardians, family and friends, or people you trust for which bank they are with and why. Perhaps they have some helpful advice to share!</li>';
+   '<b>Tips for choosing a bank</b><ul></ul><li>It has lots of locations close to where you live and/or work</li><li> It offers accounts(chequing, savings) that are free for teens and students, no annual fees </li><li> It has a great reputation and  great customer service  </li><li>Ask your parents, guardians, family and friends, or people you trust for which bank they are with and why. Perhaps they have some helpful advice to share!</li>';
 
     const nextButton = document.createElement('div');
     nextButton.classList.add("next-button");
