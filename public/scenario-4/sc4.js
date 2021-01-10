@@ -22,14 +22,14 @@ function goNext() {
         container.appendChild(text3);
         text3.innerHTML = 'You will have more than $100 in your savings account in no time!';
 
-        document.getElementById('sc1b-erika').src = 'images/erika-earring-happy.png';
+        document.getElementById('sc1b-erika').src = '../images/erika-flower-crown-happy.png';
 
         var buttonContainer = document.getElementById('sc4-button-container');
 
         deleteChildren(buttonContainer);
     
         const nextAnchor = document.createElement('a');
-        nextAnchor.href = 'sc5.html';
+        nextAnchor.href = '../scenario-6/sc6.html';
         nextAnchor.classList.add('no-text-decoration');
         buttonContainer.appendChild(nextAnchor);
     
@@ -53,7 +53,7 @@ function goNext() {
         container.appendChild(text2);
         text2.innerHTML = 'We all love sweets, but what else can we do with the money?';
 
-        document.getElementById('sc1b-erika').src = 'images/erika-earring-happy.png';
+        document.getElementById('sc1b-erika').src = '../images/erika-flower-crown-unhappy.png';
 
     } else if (value == 'third-option') {
 
@@ -69,11 +69,11 @@ function goNext() {
         container.appendChild(text2);
         text2.innerHTML = 'If you\'re not planning on using the money soon, think about depositing the $100 into your savings account where your money can grow!';
 
-        document.getElementById('sc1b-erika').src = 'images/erika-earring-unhappy.png';
+        document.getElementById('sc1b-erika').src = '../images/erika-flower-crown-unhappy.png';
 
     } else {
         container.style.color = "black";
-        container.innerHTML = 'Please choose a savings account!';
+        container.innerHTML = 'Please choose an option';
         container.style.top = '100px';
     }
 

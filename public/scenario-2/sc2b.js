@@ -18,7 +18,7 @@ function goNext() {
         container.appendChild(text2);
         text2.innerHTML = 'Let\'s choose a better option!';
         const erika = document.getElementById("sc1b-erika");
-        erika.src= 'images/erika-unhappy.png';
+        erika.src= '../images/erika-unhappy.png';
 
     } else if (value == 'second-option') {
         container.style.color = '#8b0000';
@@ -34,7 +34,7 @@ function goNext() {
         container.appendChild(text2);
         text2.innerHTML = 'Let\'s choose a better option!';
         const erika = document.getElementById("sc1b-erika");
-        erika.src= 'images/erika-unhappy.png';
+        erika.src= '../images/erika-unhappy.png';
 
     } else if (value == 'third-option') {
 
@@ -67,7 +67,7 @@ function goNext() {
         nextButton.classList.add("make-pointer");
         nextButton.innerText = 'Next';
         const erika = document.getElementById("sc1b-erika");
-        erika.src= 'images/q3-star-happy.png';
+        erika.src= '../images/q3-star-happy.png';
 
     } else {
         container.style.color = "black";
