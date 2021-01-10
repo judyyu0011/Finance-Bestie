@@ -86,7 +86,7 @@ function sc1aAnimations3() {
     topDiv.appendChild(tips);
     tips.className = 'sc1a-tips';
     tips.innerHTML = 
-   "<ul> <b> Tips for choosing a chequing and savings account</b> </ul><li>It should be free for students and teens and does not require you to have a minimum balance (you can have $0 in the bank) </li><li>It offers accounts (chequing, savings) that are free for teens and students, no annual fees </li><li> It should have a good number of monthly transaction limit (refer to finance terms 101) </li><li>If it's a savings account, it should have a good savings interest rate (refer to Finance Terms 101), higher the better</li>";
+   "<b>Tips for choosing a chequing and savings account</b><ul>  </ul><li>It should be free for students and teens and does not require you to have a minimum balance (you can have $0 in the bank) </li><li>It offers accounts (chequing, savings) that are free for teens and students, no annual fees </li><li> It should have a good number of monthly transaction limit (refer to finance terms 101) </li><li>If it's a savings account, it should have a good savings interest rate (refer to Finance Terms 101), higher the better</li>";
 
     // make a new anchor tag 
     const nextAnchor = document.createElement('a');

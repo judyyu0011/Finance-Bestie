@@ -138,6 +138,12 @@ body {
     width: 800px;
 }
 
+.about-us-text-container {
+  padding-top: 100px;
+  margin: auto;
+  width: 800px;
+}
+
 .terms-row {
     display: flex;
 }
