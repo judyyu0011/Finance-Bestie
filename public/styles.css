@@ -407,3 +407,8 @@ body {
 #sc5-option-text {
   font-size: 18.5px;
 }
+
+#finance-terms {
+  position: relative;
+  left: 10px;
+}
