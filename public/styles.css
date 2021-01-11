@@ -420,3 +420,14 @@ body {
   position: relative;
   left: 10px;
 }
+
+
+#links-blurb {
+  position: relative;
+  top: -30px;
+  right: 20px;
+  float: right;
+  width: 400px;
+  font-size: 24px;
+  font-weight: bold;
+}
