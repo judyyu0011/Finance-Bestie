@@ -4,7 +4,6 @@
 </p>
 
 Finance Bestie is a financial education tool catered towards young girls between the age of 10 to 15. Our fun, encouraging, and knowledgeable avatar Erika acts as reliable friend and financial mentor who guides the user through interactive scenarios of choosing a bank, bank accounts, and spending and saving their money.
-<br/>
 
 ## Inspiration ✨
 
@@ -16,7 +15,7 @@ Finnancial literacy is globally recognized as an [essential life skill](https://
 
 This is exactly what we want to accomplish with Finance Bestie.
 
-
+<br />
 
 Start your financial journey and see our program live [here](https://finance-bestie.herokuapp.com)!
 
