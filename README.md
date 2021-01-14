@@ -1,10 +1,9 @@
 
 <p align="center">
-  <img width="200" height="200" src="./public/images/logo_white.gif" alt="Finance Bestie">
+  <img width="250" height="250" src="./public/images/logo_white.gif" alt="Finance Bestie">
 </p>
 
 Finance Bestie is a financial education tool catered towards young girls between the age of 10 to 15. Our fun, encouraging, and knowledgeable avatar Erika acts as reliable friend and financial mentor who guides the user through interactive scenarios of choosing a bank, bank accounts, and spending and saving their money.
-
 <br/>
 
 ## Inspiration ✨
