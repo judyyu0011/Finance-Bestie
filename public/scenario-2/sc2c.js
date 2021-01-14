@@ -18,7 +18,7 @@ function goNext() {
         container.appendChild(text2);
         text2.innerHTML = 'Let\'s choose a better PIN!';
         const erika = document.getElementById("sc1b-erika");
-        erika.src= '../images/erika-star-unhappy.png';
+        erika.src= '../images/erika-red-flower-unhappy.png';
 
     } else if (value == 'second-option') {
         container.style.color = '#8b0000';
@@ -33,7 +33,7 @@ function goNext() {
         container.appendChild(text2);
         text2.innerHTML = 'Let\'s choose a better PIN!';
         const erika = document.getElementById("sc1b-erika");
-        erika.src= '../images/erika-star-unhappy.png';
+        erika.src= '../images/erika-red-flower-unhappy.png';
 
     } else if (value == 'first-option') {
 
@@ -67,7 +67,7 @@ function goNext() {
         nextButton.classList.add("make-pointer");
         nextButton.innerText = 'Next';
         const erika = document.getElementById("sc1b-erika");
-        erika.src= '../images/erika-star-happy.png';
+        erika.src= '../images/erika-red-flower-happy.png';
 
     } else {
         container.style.color = "black";
