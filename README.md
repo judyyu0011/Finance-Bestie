@@ -1,4 +1,5 @@
 
+<p align="center">
   <img width="200" height="200" src="./public/images/logo_white.gif" alt="Finance Bestie">
 </p>
 
